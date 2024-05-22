@@ -23,5 +23,9 @@
 		<div class="h-16"></div>
 
 		{@render children()}
+
+		<footer class="mt-10 w-full text-xs">
+			<p>Copyright &copy;{new Date().getFullYear()} Roland Bayor</p>
+		</footer>
 	</div>
 </div>

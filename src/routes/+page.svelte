@@ -23,7 +23,3 @@
 		</ul>
 	</section>
 </main>
-
-<footer class="w-full text-xs">
-	<p>Copyright &copy;{new Date().getFullYear()} Roland Bayor</p>
-</footer>
