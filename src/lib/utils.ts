@@ -54,3 +54,11 @@ export const flyAndScale = (
 		easing: cubicOut
 	};
 };
+
+export const formatDate = (date: string) => {
+	const fmt = new Intl.DateTimeFormat("en", {
+		dateStyle: "medium"
+	});
+
+	return fmt.format(new Date(date));
+};
