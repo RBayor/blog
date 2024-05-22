@@ -1,9 +1,23 @@
 <script lang="ts">
+	import { Code, Code2 } from "lucide-svelte";
 	import "../app.css";
 
-	let { children } = $props();
+	const { children } = $props();
 </script>
 
-{@render children()}
+<div class="dark flex min-h-screen w-full flex-col items-center p-3">
+	<div class="flex w-full max-w-3xl flex-grow flex-col items-center justify-start">
+		<nav class="flex w-full flex-row items-center justify-between">
+			<a class="flex items-center" href="/">
+				<Code class="h-5" />
+				<h1 class="text-lg font-bold">Dev Logs</h1>
+				<Code2 class="h-5" />
+			</a>
+			<img src="/me.webp" alt="RB Dev" height="45" width="45" class="rounded-full" />
+		</nav>
 
-<style></style>
+		<div class="h-16"></div>
+
+		{@render children()}
+	</div>
+</div>
