@@ -1,6 +1,10 @@
 <script lang="ts">
 	import { Code, Code2 } from "lucide-svelte";
+	import { dev } from "$app/environment";
+	import { inject } from "@vercel/analytics";
 	import "../app.css";
+
+	inject({ mode: dev ? "development" : "production" });
 
 	const { children } = $props();
 </script>
