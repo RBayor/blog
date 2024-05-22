@@ -41,6 +41,7 @@
 	"type": "module",
 	"dependencies": {
 		"@vercel/analytics": "^1.2.2",
+		"@vercel/speed-insights": "^1.0.10",
 		"clsx": "^2.1.1",
 		"lucide-svelte": "^0.379.0",
 		"tailwind-merge": "^2.3.0",
