@@ -8,8 +8,6 @@ tags:
 published: true
 ---
 
-# Welcome to My Dev Logs!
-
 Hello there 👋🏽. It's about time I created this, right? Yeah, see, I knew you'd think so too.
 <br/>  
 Oh, what's a Dev log, you ask? Well, it's my fun way of saying a mind dump.  
