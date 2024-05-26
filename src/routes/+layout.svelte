@@ -6,7 +6,7 @@
 
 	import "../app.css";
 
-	inject({ mode: dev ? "development" : "production" });
+	inject({ mode: dev ? "development" : "production", debug: false });
 	injectSpeedInsights();
 
 	const { children } = $props();
@@ -17,7 +17,7 @@
 		<nav class="flex w-full flex-row items-center justify-between">
 			<a class="flex items-center" href="/">
 				<Code class="h-5" />
-				<h1 class="text-lg font-bold">Dev Logs</h1>
+				<div class="text-lg font-bold">Dev Logs</div>
 				<Code2 class="h-5" />
 			</a>
 			<img src="/me.webp" alt="RB Dev" height="45" width="45" class="rounded-full" />

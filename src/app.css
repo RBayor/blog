@@ -58,7 +58,36 @@
 	}
 
 	pre {
-		padding: 10px;
-		border-radius: var(--radius);
+		@apply rounded-md p-2;
+	}
+
+	h1 {
+		@apply mb-4 mt-6 text-4xl font-bold;
+	}
+	h2 {
+		@apply mb-3 mt-5 text-3xl font-semibold;
+	}
+	h3 {
+		@apply mb-3 mt-4 text-2xl font-semibold;
+	}
+	h4 {
+		@apply mb-2 mt-4 text-xl font-medium;
+	}
+	h5 {
+		@apply mb-2 mt-3 text-lg font-medium;
+	}
+	h6 {
+		@apply mb-1 mt-2 text-base font-medium;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply text-purple-200;
+	}
+	p {
+		@apply mb-2 mt-2 leading-relaxed;
 	}
 }
