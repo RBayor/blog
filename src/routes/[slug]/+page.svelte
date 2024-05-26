@@ -20,7 +20,7 @@
 		{/each}
 	</div>
 
-	<div class="h-10"></div>
+	<div class="h-5"></div>
 
 	<svelte:component this={data.content} />
 </article>

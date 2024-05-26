@@ -23,7 +23,7 @@
 			<img src="/me.webp" alt="RB Dev" height="45" width="45" class="rounded-full" />
 		</nav>
 
-		<div class="h-16"></div>
+		<div class="h-14"></div>
 
 		{@render children()}
 
