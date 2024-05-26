@@ -5,7 +5,7 @@ date: "2024-05-26"
 tags:
   - general
   - journey
-published: false
+published: true
 ---
 
 **_Do you believe in predetermined paths?_**
