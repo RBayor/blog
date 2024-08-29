@@ -1,14 +1,14 @@
 import adapter from "@sveltejs/adapter-vercel";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 import { escapeSvelte, mdsvex } from "mdsvex";
-import { getHighlighter } from "shiki";
+import { getSingletonHighlighter } from "shiki";
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexConfig = {
 	extensions: [".md"],
 	highlight: {
 		highlighter: async (code, lang = "text") => {
-			const highlighter = await getHighlighter({
+			const highlighter = await getSingletonHighlighter({
 				themes: ["material-theme-darker"],
 				langs: ["typescript"]
 			});
