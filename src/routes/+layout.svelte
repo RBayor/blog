@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { Code, Code2 } from "lucide-svelte";
 	import { dev } from "$app/environment";
 	import { inject } from "@vercel/analytics";
 	import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
+	import { Code, CodeXml } from "lucide-svelte";
 
 	import "../app.css";
 
@@ -16,9 +16,9 @@
 	<div class="flex w-full max-w-2xl flex-grow flex-col items-center justify-start">
 		<nav class="flex w-full flex-row items-center justify-between">
 			<a class="flex items-center" href="/">
-				<Code class="h-5" />
+				<Code class="h-4" />
 				<div class="text-lg font-bold">Dev Logs</div>
-				<Code2 class="h-5" />
+				<CodeXml class="h-4" />
 			</a>
 			<img src="/me.webp" alt="RB Dev" height="45" width="45" class="rounded-full" />
 		</nav>
